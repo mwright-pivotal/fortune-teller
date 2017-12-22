@@ -26,3 +26,8 @@ hystrix:
 fortunes:
   ribbon:
     listOfServers: localhost:8080
+    
+zuul:
+  ignoredServices: "*"
+  routes:
+    fortunes: /**
