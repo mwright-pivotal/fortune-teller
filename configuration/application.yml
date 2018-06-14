@@ -1,2 +1,4 @@
 fortune:
   fallbackFortune: Your future is bright!
+server:
+  port: 9999
